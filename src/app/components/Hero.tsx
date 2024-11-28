@@ -6,7 +6,7 @@ const Hero = () => {
        <section className='Hero bg-white min-h-screen w-screen flex py-20 bg-cover bg-center overflow-hidden'>
       <div className="text-white text-left px-4 md:px-16">
 
-      <div className="absolute top-[30%] right-[-370] transform translate-y-[-25%] z-20 ">
+      <div className="absolute top-[30%] right-[-0] transform translate-y-[-25%] z-20 ">
       {/* Other website content */}
       <Image 
         src="/governer.png" 
@@ -23,7 +23,7 @@ const Hero = () => {
           alt="Logo"
           width={125}
           height={50}
-          className="absolute top-10 left-10 transform translate-y-[-25%] z-20 h-50 w-30 object-contain"
+          className="absolute top-10 left-10 transform translate-y-[-25%] z-20  lg:h-50 w-30  object-contain "
         />
         <h1 className='text-sky-800 text-bold text-7xl'>Governor Sindh</h1>
         <h4 className='text-sky-800 text-5xl'>Kamran Khan Tessori</h4>
