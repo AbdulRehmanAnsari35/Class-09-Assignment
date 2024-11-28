@@ -9,6 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        
+        customBlue: 'rgb(46, 182, 232)', // Define your custom color
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
